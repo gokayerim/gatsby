@@ -44,6 +44,7 @@ you have to be careful to copy any changes to `web.config` on your server back t
     <system.webServer>
         <staticContent>
             <mimeMap fileExtension=".webmanifest" mimeType="application/manifest+json" />
+            <mimeMap fileExtension=".json" mimeType="application/json" />
         </staticContent>
         <rewrite>
             <outboundRules>
